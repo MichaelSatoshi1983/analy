@@ -24,7 +24,7 @@ export async function onRequest({ request, env }) {
     // 写数据
     website &&
       host &&
-      env.AnalyticsBinding.writeDataPoint({
+      env.BlogAnalytics.writeDataPoint({
         blobs: [
           website, //website - blob1
           host, //Host - blob2
