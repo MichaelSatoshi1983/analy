@@ -94,7 +94,7 @@
 }
 
 body {
-  cursor: url('./default.cur'), default;
+  /*cursor: url('./default.cur'), default;*/
   background: #fff;
 }
 
